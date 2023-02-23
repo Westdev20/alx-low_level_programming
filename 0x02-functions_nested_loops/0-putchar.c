@@ -1,22 +1,20 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 /**
-* main - main function entry
-*
-* Return: int(0)
+* main - print _putchar
+* is written by michael
+* Return: 0
 */
+
 int main(void)
 {
-char text[] = "_putchar";
-char s;
-int i;
-int len = strlen(text);
-for (i = 0; i <= len; i++)
-{
-s = text[i];
-if (s == '\0')
-s = '\n';
-putchar(s);
-}
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 return (0);
 }
